@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clear Sand - AreLim | Arena Pura, Vida Segura</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">
+                    <img src="assets/images/logo3.png" alt="Clear Sand Logo">
+            </a>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre">Sobre Clear Sand</a></li>
+                <li><a href="#arelim">AreLim</a></li>
+                <li><a href="#como-funciona">Cómo Funciona</a></li>
+                <li><a href="#impacto">Impacto</a></li>
+                <li><a href="#equipo">Equipo</a></li>
+            </ul>
+            <button class="menu-toggle" aria-label="Menú">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <main>
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>Clear Sand</h1>
+            <p class="slogan">Arena Pura, Vida Segura</p>
+            <p class="description">Prototipo AreLim: Robot recolector y clasificador de residuos para la limpieza sostenible de playas</p>
+            <div class="hero-buttons">
+                <a href="#arelim" class="btn-primary">Conoce AreLim</a>
+                <a href="#sobre" class="btn-secondary">Sobre el Proyecto</a>
+            </div>
+        </div>
+        <div class="hero-wave">
+            <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+                <path d="M0,60 C360,120 720,0 1080,60 C1260,90 1380,60 1440,60 L1440,120 L0,120 Z" fill="#ffffff"/>
+            </svg>
+        </div>
+    </section>
+
+    <!-- Sobre Clear Sand -->
+    <section id="sobre" class="section">
+        <div class="container">
+            <h2 class="section-title">Sobre Clear Sand</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>La Problemática</h3>
+                    <p>Actualmente, las playas enfrentan una problemática ambiental cada vez más grave debido a la acumulación de desechos como plásticos, latas y vidrio. Esta contaminación no solo ocasiona un daño significativo a los ecosistemas marinos, sino que también perjudica la imagen turística de estos destinos.</p>
+                    <p>De acuerdo con la Comisión Federal para la Protección contra Riesgos Sanitarios (COFEPRIS), en 2024 se emitió una alerta sobre seis playas en México que no son aptas para el uso recreativo debido a los altos niveles de desechos y bacterias.</p>
+                    <p>Si bien existen esfuerzos manuales para mantener limpias las playas, estos resultan poco sostenibles a largo plazo. En respuesta, hemos desarrollado <strong>AreLim</strong>, una solución tecnológica orientada a optimizar la limpieza mediante el uso de robótica.</p>
+                </div>
+                <div class="about-image">
+                <img src="assets/images/logo.jpeg" alt="Clear Sand Logo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AreLim - Prototipo -->
+    <section id="arelim" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Prototipo AreLim</h2>
+            <p class="section-subtitle">Arena Limpia - Robot recolector de residuos para playas</p>
+            <div class="arelim-content">
+                <div class="arelim-features">
+                    <div class="feature-card">
+                        <div class="feature-icon">📡</div>
+                        <h3>Control Inalámbrico</h3>
+                        <p>Manejado a distancia con control inalámbrico, facilitando su operación sin necesidad de contacto directo.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">📷</div>
+                        <h3>Cámara en Tiempo Real</h3>
+                        <p>Equipado con ESP32-CAM que transmite video en tiempo real, aumentando la precisión de la limpieza.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon"></div>
+                        <h3>Tecnología Arduino</h3>
+                        <p>Programado con Arduino IDE, aprovechando las capacidades del ESP32-CAM para dirección y control.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">📶</div>
+                        <h3>Conexión WiFi</h3>
+                        <p>Conexión estable en un rango de 10 a 30 metros en campo abierto mediante punto de acceso WiFi.</p>
+                    </div>
+                </div>
+                <div class="arelim-future">
+                    <h3>Futuro del Proyecto</h3>
+                    <ul>
+                        <li>Navegación inteligente autónoma</li>
+                        <li>Panel solar para energía renovable</li>
+                        <li>Estación de recarga automática</li>
+                        <li>Clasificación interna más detallada (vidrio, plástico, metales, etc.)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cómo Funciona -->
+    <section id="como-funciona" class="section">
+        <div class="container">
+            <h2 class="section-title">Cómo Funciona</h2>
+            <div class="steps-grid">
+                <div class="step-card">
+                    <div class="step-number">01</div>
+                    <h3>Control Remoto</h3>
+                    <p>El operador maneja AreLim a distancia mediante un control inalámbrico, recorriendo distintas zonas de la playa según sea necesario.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">02</div>
+                    <h3>Detección Visual</h3>
+                    <p>La cámara ESP32-CAM transmite video en tiempo real, permitiendo identificar residuos y navegar con precisión.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">03</div>
+                    <h3>Recolección</h3>
+                    <p>El robot recolecta los residuos de la arena de manera eficiente, separando lo que es basura del entorno natural.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">04</div>
+                    <h3>Clasificación</h3>
+                    <p>Sistema que separa material descartable (un solo uso) de material reutilizable: plásticos, metales, papel, cartón y vidrio.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Misión y Visión -->
+    <section class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Misión y Visión</h2>
+            <div class="mission-vision-grid">
+                <div class="mv-card">
+                    <h3>Misión</h3>
+                    <p>Operar un sistema de recolección avanzado capaz de recoger y clasificar autónomamente los desechos en las playas, separando de manera eficiente los desechos orgánicos, metales y cristal, para contribuir a la conservación del medio ambiente, fomentar la cultura del reciclaje y así devolver una arena libre de impurezas.</p>
+                </div>
+                <div class="mv-card">
+                    <h3>Visión</h3>
+                    <p>Convertirnos en la solución innovadora y eficiente para la limpieza sostenible de las playas en el estado de Chiapas, ayudando a reducir la contaminación y fomentando la cultura de reciclaje, a partir de la recolección de residuos, y así expandiendo más el mercado hacia el reciclaje de estos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Impacto Ambiental -->
+    <section id="impacto" class="section">
+        <div class="container">
+            <h2 class="section-title">Impacto Ambiental</h2>
+            <div class="impact-grid">
+                <div class="impact-card">
+                    <div class="impact-icon"></div>
+                    <h3>Protección del Ecosistema</h3>
+                    <p>Evita que la basura llegue al océano y cause daños a la fauna marina y los ecosistemas costeros.</p>
+                </div>
+                <div class="impact-card">
+                    <div class="impact-icon">♻️</div>
+                    <h3>Clasificación Eficiente</h3>
+                    <p>Separa lo que es residuo de lo que forma parte del entorno natural, facilitando el reciclaje de materiales reutilizables.</p>
+                </div>
+                <div class="impact-card">
+                    <div class="impact-icon">🏖️</div>
+                    <h3>Playas Limpias</h3>
+                    <p>Contribuye a mantener los espacios costeros limpios y saludables tanto para visitantes como para la vida silvestre.</p>
+                </div>
+                <div class="impact-card">
+                    <div class="impact-icon">🌱</div>
+                    <h3>Conciencia Ambiental</h3>
+                    <p>Promueve una cultura de respeto por la naturaleza entre usuarios, turistas y comunidades costeras.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Equipo -->
+    <section id="equipo" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Nuestro Equipo</h2>
+            <p class="section-subtitle">Instituto Tecnológico Nacional Campus Tuxtla</p>
+            <div class="team-grid">
+                <div class="team-card">
+                    <div class="team-avatar">
+                        <img src="assets/images/sinfoto.png" alt="Frida Sofía Vázquez González">
+                    </div>
+                    <h3>Frida Sofía Vázquez González</h3>
+                    <p>Gerente</p>
+                </div>
+                <div class="team-card">
+                    <div class="team-avatar">
+                        <img src="assets/images/sinfoto.png" alt="Héctor Lausse Gutiérrez Gómez">
+                    </div>
+                    <h3>Héctor Lausse Gutiérrez Gómez</h3>
+                    <p>Técnico</p>
+                </div>
+                <div class="team-card">
+                    <div class="team-avatar">
+                        <img src="assets/images/sinfoto.png" alt="Mía Monserratt Álvarez Bertruy">
+                    </div>
+                    <h3>Mía Monserratt Álvarez Bertruy</h3>
+                    <p>Marketing</p>
+                </div>
+                <div class="team-card">
+                    <div class="team-avatar">
+                        <img src="assets/images/sinfoto.png" alt="David Raul Vazquez Yañez">
+                    </div>
+                    <h3>David Raul Vazquez Yañez</h3>
+                    <p>Programador</p>
+                </div>
+                <div class="team-card">
+                    <div class="team-avatar">
+                        <img src="assets/images/sinfoto.png" alt="Emiliano Villalobos Calderillo">
+                    </div>
+                    <h3>Emiliano Villalobos Calderillo</h3>
+                    <p>Técnico</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ubicación -->
+    <section id="ubicacion" class="section">
+        <div class="container">
+            <h2 class="section-title">Ubicación</h2>
+            <div class="location-content">
+                <div class="location-info">
+                    <h3>Instituto Tecnológico Nacional Campus Tuxtla</h3>
+                    <p><strong>Proyecto:</strong> Clear Sand - Prototipo AreLim</p>
+                    <p><strong>Eslogan:</strong> Arena Pura, Vida Segura</p>
+                    <p>📍 Tuxtla Gutiérrez, Chiapas, México</p>
+                    <p>💼 Enfoque: Empresas recicladoras, economía circular y gobiernos municipales</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <img src="assets/images/logo3.png" alt="Clear Sand Logo" class="footer-logo">
+            <p><strong>Clear Sand</strong> - Prototipo AreLim</p>
+            <p>&copy; 2026 Instituto Tecnológico Nacional Campus Tuxtla</p>
+            <p>Arena Pura, Vida Segura</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
