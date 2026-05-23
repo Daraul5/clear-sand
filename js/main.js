@@ -73,3 +73,8 @@ if (contactForm) {
         contactForm.reset();
     });
 }
+
+// Inicialización de iconos Lucide en la página
+if (typeof lucide !== 'undefined') {
+    lucide.createIcons();
+}
